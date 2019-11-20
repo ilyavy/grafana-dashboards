@@ -11,15 +11,15 @@ The dashboard assumes that there is a *probe*, which probes service's *availabil
 
 Settings for color switching are needed to be adjusted:
 
-1. After `error_budget` parameter is adjusted for the required level, it is necessary to adjust the thresholds for color switching at `Error Budget Left` singlestat panel. It can be done via `Vizualization` tab.
+1. After `error_budget` parameter is adjusted for the required level, it is necessary to adjust the thresholds for color switching at *Error Budget Left* singlestat panel. It can be done via *Vizualization* tab.
 
-2. After `service_slo_target` parameter is adjusted for the required level, it is necessary to adjust the thresholds for color switching at `Current SLO` singlestat panel. It can be done via `Vizualization` tab.
+2. After `service_slo_target` parameter is adjusted for the required level, it is necessary to adjust the thresholds for color switching at *Current SLO* singlestat panel. It can be done via *Vizualization* tab.
 
 The highest panel has two states:
 - *Status is OK* - there are no alerts firing for the last 5 minutes.
 - *Alerts are firing* - there are alerts firing for the last 5 minutes, pay attention.
 
-The titles for both states can be changed via `Vizualization` tab, in `Value mappings` section.
+The titles for both states can be changed via *Vizualization* tab, in *Value mappings* section.
 
 Dashboard is available at [grafana.com](https://grafana.com/grafana/dashboards/11222).
 
