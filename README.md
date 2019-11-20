@@ -6,8 +6,8 @@
 The dashboard is based on the following example: [https://github.com/google/prometheus-slo-burn-example](https://github.com/google/prometheus-slo-burn-example)
 
 The dashboard assumes that there is a *probe*, which probes service's *availability* and exports the data using metrics, which are then used by this dashboard. There are supposed to be two metrics exposed, which can have any name (it is configurable in the parameters):
-- requests_error_count - the number of requests to the service returned an error;
-- requests_total_count - the total number of requests to the service.
+- `requests_error_count` - the number of requests to the service returned an error;
+- `requests_total_count` - the total number of requests to the service.
 
 Settings for color switching are needed to be adjusted:
 
