@@ -1,5 +1,6 @@
 # grafana-dashboards
 
+The repository contains various grafana dashboards, also availabe at Grafana Libs.
 
 ## SLO dashboard
 
